@@ -6,7 +6,7 @@ Minimal instructions for getting langfuse running on OpenShift
 - https://langfuse.com/self-hosting
 - https://langfuse.com/blog/2025-06-04-open-sourcing-langfuse-product
 
-``bash
+```bash
 oc new-project langfuse
 
 oc apply -f- <<'EOF'
